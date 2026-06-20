@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kashi Insurance CRM</title>
+<style>
+body{margin:0;font-family:Arial;background:#f4f6f9}
+.sidebar{position:fixed;left:0;top:0;width:220px;height:100%;background:#1e293b;color:#fff;padding:20px}
+.sidebar h2{margin-top:0}
+.sidebar div{padding:10px 0}
+.main{margin-left:240px;padding:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.table{background:#fff;margin-top:20px;padding:20px;border-radius:10px}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #ddd;padding:10px}
+th{background:#1565D8;color:#fff}
+input{padding:10px;width:300px;max-width:100%}
+</style>
+</head>
+<body>
+<div class="sidebar">
+<h2>Kashi CRM</h2>
+<div>🏠 Dashboard</div>
+<div>👤 Customers</div>
+<div>🚗 Vehicles</div>
+<div>📄 Policies</div>
+<div>🔔 Renewals</div>
+<div>📞 Follow Ups</div>
+<div>💰 Payments</div>
+</div>
+
+<div class="main">
+<h1>Kashi Insurance CRM</h1>
+<input placeholder="Search Vehicle Number">
+
+<div class="cards">
+<div class="card"><h3>Total Customers</h3><h1>12540</h1></div>
+<div class="card"><h3>Active Policies</h3><h1>8450</h1></div>
+<div class="card"><h3>Due In 30 Days</h3><h1>875</h1></div>
+<div class="card"><h3>Today's Collection</h3><h1>₹52,400</h1></div>
+</div>
+
+<div class="table">
+<h2>Today's Renewals</h2>
+<table>
+<tr><th>Vehicle No</th><th>Customer</th><th>Company</th><th>Expiry</th></tr>
+<tr><td>UP65AB1234</td><td>Ram Kumar</td><td>ICICI Lombard</td><td>15/07/2026</td></tr>
+<tr><td>UP61XY5678</td><td>Mohan Yadav</td><td>HDFC ERGO</td><td>28/06/2026</td></tr>
+</table>
+</div>
+</div>
+</body>
+</html>
